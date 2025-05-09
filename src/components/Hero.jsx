@@ -3,7 +3,10 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="h-screen flex items-center justify-center bg-gradient-to-r from-blue-800 to-blue-500 text-white relative">
+    <section
+      id="hero"
+      className="h-screen flex items-center bg-blue-900 dark:bg-blue-800 justify-center bg-gradient-to-r from-blue-800 to-blue-500 text-white relative"
+    >
       <div className="text-center px-4">
         <motion.h1
           className="text-4xl md:text-6xl font-bold mb-4"
